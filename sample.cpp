@@ -1,12 +1,14 @@
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!" << std::endl;
-    return 0;
-}
+int main(){
+    
+    int s, t;
+    std :: cout << "s =" ;
+    std :: cin >>s;
+    std :: cout << "t =" ;
+    std :: cin >>t;
+    std :: cout << "s * t =" << s*t<<std::endl;
+    std :: cout << " s + t * s = " << s+t*s <<std::endl;
 
-int sum(int a,int b)
-{
-    return a+b;
+    return 0;
 }
